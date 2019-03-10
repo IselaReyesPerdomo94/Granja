@@ -22,10 +22,6 @@ function moverPinkPig(evento){
   console.log("prueba");
   var movimientolado = 60;
   var movimientoarriba = 40;
-  var limite = 480;
-    if(ycerdo>=limite&& xcerdo>=limite){
-    alert("you are out!")
-    }
 
   switch(evento.which){
     case teclas.UP:
